@@ -1,0 +1,19 @@
+name: HomeSystem
+version: 1.0.0
+author: Farmero
+api: 5.0.0
+main: Farmero\homesystem\HomeSystem
+
+permissions:
+  homesystem.cmd.home:
+    default: true
+  homesystem.cmd.delhome:
+    default: true
+  homesystem.cmd.sethome:
+    default: true
+  homesystem.cmd.adminhome:
+    default: op
+  homesystem.cmd.admindelhome:
+    default: op
+  homesystem.cmd.adminsethome:
+    default: op

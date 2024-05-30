@@ -1,0 +1,56 @@
+prefix: "§f[§9Homes§f] "
+
+# Homes
+
+home_cmd: "home:Teleport to one of your homes"
+home_aliases: []
+home_msg_teleport: "{prefix}You have been teleported to your home!"
+home_msg_list: "{prefix}Here is the list of your home(s): {home}"
+home_no_teleportation: "{prefix}The teleport has been cancelled!"
+home_cooldown: "{prefix}Teleport in {time} seconds!"
+home_time: 5
+
+# Set Home
+
+sethome_cmd: "sethome:Set a home"
+sethome_aliases: []
+sethome_msg_good: "{prefix}You have well defined your home!"
+sethome_msg_exist_home: "{prefix}You already have a home with that name!"
+sethome_msg_no_home: "{prefix}You must indicate the name of a home!"
+
+# Delete Home
+
+delhome_cmd: "delhome:Delete a home"
+delhome_aliases: []
+delhome_msg_good: "{prefix}You have successfully deleted your home!"
+delhome_msg_no_exist_home: "{prefix}You don't have a home with that name!"
+delhome_msg_no_home: "{prefix}You must indicate the name of a home!"
+
+# Admin Home
+
+adminhome_cmd: "adminhome:Teleport to one of your admin homes"
+adminhome_aliases: []
+adminhome_msg_no_player: "{prefix}You must indicate the name of a player!"
+adminhome_no_exist_player: "{prefix}The player you specified does not exist!"
+adminhome_msg_list: "{prefix}Here is the list of home(s) of {player}: {home}"
+adminhome_msg_teleportation: "{prefix}You have been teleported home!"
+
+# Admin Delete Home
+
+admindelhome_cmd: "admindelhome:Delete a admin home"
+admindelhome_aliases: []
+admindelhome_msg_no_player: "{prefix}You must indicate the name of a player!"
+admindelhome_no_exist_player: "{prefix}The player you specified does not exist!"
+admindelhome_no_home: "{prefix}You must indicate the name of a home!"
+admindelhome_no_exist_home: "{prefix}The indicated player does not have a home with that name!"
+admindelhome_msg_good: "{prefix}You have successfully deleted the home!"
+
+# Admin Set Home
+
+adminsethome_cmd: "adminsethome:Set a admin home" # admin.home
+adminsethome_aliases: []
+adminsethome_msg_no_player: "{prefix}You must indicate the name of a player!"
+adminsethome_no_exist_player: "{prefix}The player you specified does not exist!"
+adminsethome_no_home: "{prefix}You must indicate the name of a home!"
+adminsethome_exist_home: "{prefix}The indicated player already has a home with that name!"
+adminsethome_msg_good: "{prefix}You have well defined the home!"
