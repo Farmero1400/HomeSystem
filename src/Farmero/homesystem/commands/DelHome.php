@@ -19,7 +19,7 @@ class DelHome extends Command
         parent::__construct($command[0]);
         if (isset($command[1])) $this->setDescription($command[1]);
         $this->setAliases(HomeSystem::getConfigValue("delhome_aliases"));
-        $this->setPermission("homesystem.cmd.delhome")
+        $this->setPermission("homesystem.cmd.delhome");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
